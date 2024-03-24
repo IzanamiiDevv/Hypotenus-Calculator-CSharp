@@ -5,6 +5,10 @@ class Program
 {
     public static void Main()
     {
-        Console.WriteLine(Hypo.Calc(4.10,6.3));
+        Console.WriteLine("Write the value of A");
+        double a = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Write the value of B");
+        double b = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"The Hypotenus is: {Hypo.Calc(a,b)}");
     }
 }
