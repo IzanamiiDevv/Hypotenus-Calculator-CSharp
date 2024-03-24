@@ -1,5 +1,6 @@
 ﻿using System;
 using Hypotenus;
+using StyleCode;
 
 class Program
 {
@@ -9,6 +10,7 @@ class Program
         double a = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Write the value of B");
         double b = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine($"The Hypotenus is: {Hypo.Calc(a,b)}");
+
+        Style.Green(Hypo.Calc(a,b),"The Hypotenus is: ");
     }
 }
