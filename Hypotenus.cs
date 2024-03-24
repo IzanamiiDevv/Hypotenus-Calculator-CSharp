@@ -4,10 +4,10 @@ namespace Hypotenus
 {
     class Hypo
     {
-        public static int Calc(int x, int y)
+        public static double Calc(double x,double y)
         {
-            Math.Pow(3,3);
-            return x + y;
+            return Math.Sqrt((x*x)+(y*y));
         }
+
     }
 }

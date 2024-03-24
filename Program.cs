@@ -5,6 +5,6 @@ class Program
 {
     public static void Main()
     {
-        Console.WriteLine(Hypo.Calc(4,6));
+        Console.WriteLine(Hypo.Calc(4.10,6.3));
     }
 }
