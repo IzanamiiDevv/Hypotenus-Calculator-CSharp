@@ -13,4 +13,20 @@ class Program
 
         Style.Green(Hypo.Calc(a,b),"The Hypotenuse is: ");
     }
+
+    
+}
+
+namespace StyleCode
+{
+    class Style
+    {
+        public static void Green<T>(T args,string txt)
+        {
+            Console.Write(txt);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(args);
+            Console.ResetColor();
+        }
+    }
 }
