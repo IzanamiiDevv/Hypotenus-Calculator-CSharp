@@ -2,16 +2,22 @@
 using Hypotenus;
 using StyleCode;
 
+
 class Program
 {
     public static void ReadLinefromUser()
     {
-        Console.WriteLine("Write the leg of A");
+        Console.WriteLine("Write the length of leg A");
         double a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Write the leg of B");
+        Console.WriteLine("Write the length of leg B");
         double b = Convert.ToDouble(Console.ReadLine());
 
         Style.Green(Hypo.Calc(a,b),"The Hypotenuse is: ");
+    }
+    
+static void Main(string[] args)
+    {
+        ReadLinefromUser();
     }
 
     
