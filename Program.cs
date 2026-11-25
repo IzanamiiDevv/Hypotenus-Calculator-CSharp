@@ -4,11 +4,11 @@ using StyleCode;
 
 class Program
 {
-    public static void Main()
+    public static void ReadLinefromUser()
     {
-        Console.WriteLine("Write the value of A");
+        Console.WriteLine("Write the leg of A");
         double a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Write the value of B");
+        Console.WriteLine("Write the leg of B");
         double b = Convert.ToDouble(Console.ReadLine());
 
         Style.Green(Hypo.Calc(a,b),"The Hypotenus is: ");
